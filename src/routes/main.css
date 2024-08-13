@@ -1,0 +1,365 @@
+@font-face {
+    font-family: Gilroy;
+    font-weight: 100;
+    src: url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Thin.otf), url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Thin.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    font-weight: 200;
+    src: url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-UltraLight.otf), url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-UltraLight.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    font-weight: 300;
+    src: url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Light.otf), url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Light.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    font-weight: 400;
+    src: url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Regular.otf), url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    font-weight: 500;
+    src: url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Medium.otf), url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    font-weight: 600;
+    src: url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Bold.otf), url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    font-weight: 700;
+    src: url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-ExtraBold.otf), url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    font-weight: 800;
+    src: url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Black.otf), url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Black.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    font-weight: 900;
+    src: url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Heavy.otf), url(https://www.copaair.com/copalove/fonts/Radomir + Tinkov + -+Gilroy-Heavy.ttf);
+}
+#main-container > .container {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.asset.modules.container {
+    max-width: none;
+}
+.modules {
+    padding: 0;
+}
+.location-content {
+    padding: 0 0 80px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.cm-design-sytem.styles-override .color-anhil {
+    color: #0032a0;
+}
+.pty-incred-header {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 16px 1fr 16px;
+    grid-template-columns: 16px 1fr 16px;
+    -ms-grid-rows: 16px 2fr 1fr 1.5fr 16px;
+    grid-template-rows: 16px 2fr 1fr 1.5fr 16px;
+    height: 140vw;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+@media (min-width: 768px) {
+    .pty-incred-header {
+        -ms-grid-columns: 40% 20% 40%;
+        grid-template-columns: 40% 20% 40%;
+        -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: auto;
+    }
+}
+@media (min-width: 1000px) {
+    .pty-incred-header {
+        height: 30vw;
+    }
+}
+.pty-incred-header__accent,
+.pty-incred-header__left,
+.pty-incred-header__right {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+}
+.pty-incred-header__left {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1/4;
+    overflow: hidden;
+}
+@media (min-width: 768px) {
+    .pty-incred-header__left {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 2;
+        grid-row: 1/3;
+    }
+}
+@media (min-width: 1000px) {
+    .pty-incred-header__left {
+        position: relative;
+    }
+}
+.pty-incred-header__right {
+    -ms-grid-row: 4;
+    grid-row: 4;
+    overflow: hidden;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .pty-incred-header__right {
+        -ms-grid-column: 3;
+        -ms-grid-column-span: 1;
+        grid-column: 3/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 2;
+        grid-row: 1/3;
+    }
+}
+.pty-incred-header__hero--a {
+    display: block;
+    height: 100%;
+    margin: 0;
+}
+@media (min-width: 768px) {
+    .pty-incred-header__hero--a {
+        height: auto;
+        width: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    .pty-incred-header__hero--a {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 100%;
+    }
+}
+.pty-incred-header__hero--b {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: -1;
+}
+@media (min-width: 768px) {
+    .pty-incred-header__hero--b {
+        height: 200%;
+        max-width: none;
+        right: 0;
+        width: auto;
+    }
+}
+@media (min-width: 1000px) {
+    .pty-incred-header__hero--b {
+        height: 245%;
+    }
+}
+.pty-incred-header__accent {
+    background-color: #0032a0;
+    -ms-grid-row: 3;
+    grid-row: 3;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .pty-incred-header__accent {
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
+        grid-column: 2/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 2;
+        grid-row: 1/3;
+    }
+}
+.pty-incred-header__accent--a {
+    mix-blend-mode: multiply;
+    opacity: 0.64;
+}
+.pty-incred-header__accent--b {
+    mix-blend-mode: color;
+}
+.pty-incred-header__title {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    color: #fff;
+    font-weight: 600;
+    font-family: Gilroy, "Suisse Int'l", Lato, Helvetica, Arial, sans-serif;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 3;
+    grid-row: 3;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 768px) {
+    .pty-incred-header__title {
+        font-size: 40px;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 2;
+        grid-row: 1/3;
+    }
+}
+@media (min-width: 1000px) {
+    .pty-incred-header__title {
+        font-size: 50px;
+    }
+}
+@media (min-width: 1366px) {
+    .pty-incred-header__title {
+        font-size: 72px;
+    }
+}
+@media (min-width: 1920px) {
+    .pty-incred-header__title {
+        font-size: 96px;
+    }
+}
+.pty-incred-header__title--a {
+    letter-spacing: 0.4em;
+}
+.pty-incred-header__title--b {
+    letter-spacing: 0.24em;
+}
+@media (min-width: 768px) {
+    .pty-incred-header__title--b {
+        letter-spacing: 0.4em;
+    }
+}
+.pty-incred-header__stamp-container {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 4;
+    grid-row: 4;
+    height: 100%;
+    -ms-grid-column-align: center;
+    justify-self: center;
+    text-align: center;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .pty-incred-header__stamp-container {
+        -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+        -ms-grid-column: 3;
+        grid-column: 3;
+        -ms-grid-row: 1;
+        grid-row: 1;
+        height: 128px;
+        -ms-grid-column-align: start;
+        justify-self: start;
+        margin-left: 32px;
+        width: 128px;
+    }
+    .pty-incred-header__stamp-container--english {
+        -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+        grid-row: 2/3;
+    }
+}
+@media (min-width: 1366px) {
+    .pty-incred-header__stamp-container {
+        height: 200px;
+        width: 200px;
+        margin-left: 96px;
+        position: relative;
+    }
+}
+.pty-incred-header__stamp {
+    -webkit-animation: stamp 2s cubic-bezier(0.33, -0.13, 1, 1.3);
+    animation: stamp 2s cubic-bezier(0.33, -0.13, 1, 1.3);
+    height: 100%;
+    width: auto;
+}
+@media (min-width: 768px) {
+    .pty-incred-header__stamp {
+        height: auto;
+        max-width: 100%;
+    }
+}
+@media (min-width: 1366px) {
+    .pty-incred-header__stamp {
+        bottom: 0;
+        left: 0;
+        max-width: 200px;
+        position: absolute;
+    }
+}
+@media (min-width: 1920px) {
+    .pty-incred-header__stamp {
+        bottom: 0;
+        left: 0;
+        max-width: 240px;
+        position: absolute;
+        width: 240px;
+    }
+}
+@-webkit-keyframes stamp {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(10);
+        transform: scale(10);
+    }
+    75% {
+        opacity: 0;
+        -webkit-transform: scale(10);
+        transform: scale(10);
+    }
+    85% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes stamp {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(10);
+        transform: scale(10);
+    }
+    75% {
+        opacity: 0;
+        -webkit-transform: scale(10);
+        transform: scale(10);
+    }
+    85% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
