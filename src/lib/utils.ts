@@ -4,6 +4,8 @@ import { cubicOut } from "svelte/easing";
 import type { TransitionConfig } from "svelte/transition";
 import { extendTailwindMerge } from "tailwind-merge";
 import { default as Preset } from 'cmds-tailwind-styles';
+import { tv, defaultConfig, type VariantProps } from "tailwind-variants";
+
 
 const customTwMerge = extendTailwindMerge({
   extend: {
@@ -14,6 +16,15 @@ const customTwMerge = extendTailwindMerge({
     }
   }
 })
+
+defaultConfig.twMergeConfig = {
+	classGroups: {
+	  'font-size': [{text:Object.keys(Preset.theme.extend.fontSize)}],
+	  'font-family': [{font:Object.keys(Preset.theme.extend.fontFamily)}],
+	  'text-color': [{text:Object.keys(Preset.theme.extend.colors)}],
+	  'border-color': [{text:Object.keys(Preset.theme.extend.colors)}]
+	}
+  }
 
 export function cn(...inputs: ClassValue[]) {
 	return customTwMerge(clsx(inputs));
@@ -70,3 +81,4 @@ export function flyAndScale(
 		easing: cubicOut,
 	};
 }
+

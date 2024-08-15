@@ -24,7 +24,7 @@
 		"autoprefixer": "^10.4.19",
 		"bits-ui": "^0.21.13",
 		"clx": "^1.0.0",
-		"cmds-tailwind-styles": "^1.2.6",
+		"cmds-tailwind-styles": "^1.1.6",
 		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
